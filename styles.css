@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.container {
+  width: 350px;/* Restricts maximum width */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Ensures left-alignment */
+}
+
+.page-title {
+  font-size: 2em;
+  color: #3949ab; /* Slightly darker color for better readability */
+  margin-bottom: 15px;
+  text-align: center; /* Center-align the title */
+}
+
+#email-subject {
+  font-size: 1.6em;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center; /* Center-align the subject */
+}
+
+#sender-email {
+  font-size: 1em;
+  color: #666; /* Slightly lighter color for secondary information */
+  margin: 10px 0;
+  text-align: center; /* Center-align the sender email */
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content h3 {
+  font-size: 1.3em;
+  color: #3949ab; /* Consistent with the theme color */
+  margin-bottom: 8px;
+  border-bottom: 2px solid #e3f2fd; /* Subtle separator for clarity */
+  padding-bottom: 5px;
+}
+
+.content p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #444;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.links h3 {
+  font-size: 1.3em;
+  color: #3949ab;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #e3f2fd;
+  padding-bottom: 5px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul li {
+  background-color: #e3f2fd;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.links ul li a {
+  color: #1565c0;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.links ul li a:hover {
+  text-decoration: underline;
+  color: #0d47a1; /* Darker shade on hover */
+}
+
+.links ul li:hover {
+  background-color: #bbdefb; /* Subtle hover effect for list items */
+}
